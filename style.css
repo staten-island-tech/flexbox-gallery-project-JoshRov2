@@ -1,6 +1,4 @@
-html, 
-body, 
-* {
+html, body  {
 padding: 0;
 margin: 0;
 background-color: rgb(194, 18, 18);
@@ -17,15 +15,50 @@ h1{
     color: darkgreen;
     font-size: 30px;
 }
-.gallery{
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-.card{
-    color: darkgreen;
-    background-color: antiquewhite;
-    border: 1px solid black;
-    width: 28%;
+.gallery
 
+.column1{
+    width: 27vw;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin:20px;
+    color: darkgreen;
+    font-size: 25px;
+    border: 3px solid black;
+}
+img{
+    width: 50%;
+}
+.column2{
+    width: 27vw;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin:20px;
+    color: darkgreen;
+    font-size: 25px;
+    border: 3px solid black;
+}
+.column3{
+    width: 27vw;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin:20px;
+    color: darkgreen;
+    font-size: 25px;
+    border: 3px solid black;
 }
