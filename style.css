@@ -8,18 +8,26 @@ font-family: 'Vesper Libre', serif;
 }
 h1{
     background-color: antiquewhite;
-    border: 3px solid black;
+    border: 5px solid black;
     padding: 3%;
     margin: 3%;
     text-align: center;
     color: darkgreen;
-    font-size: 30px;
+    font-size: 50px;
 }
-.gallery
+h3{
+    font-size: 25px;
+}
+.parent{
+    flex-direction: row, column;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
 
-.column1{
-    width: 27vw;
-    height: 55vh;
+}
+
+
+.card{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -27,38 +35,9 @@ h1{
     justify-content: space-between;
     background-color: antiquewhite;
     margin:20px;
+    padding: 20px;
     color: darkgreen;
-    font-size: 25px;
+    font-size: 15px;
     border: 3px solid black;
-}
-img{
-    width: 50%;
-}
-.column2{
-    width: 27vw;
-    height: 55vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: antiquewhite;
-    margin:20px;
-    color: darkgreen;
-    font-size: 25px;
-    border: 3px solid black;
-}
-.column3{
-    width: 27vw;
-    height: 55vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: antiquewhite;
-    margin:20px;
-    color: darkgreen;
-    font-size: 25px;
-    border: 3px solid black;
+    border-image: 5px solid black;
 }
