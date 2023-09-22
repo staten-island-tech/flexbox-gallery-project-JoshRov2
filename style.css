@@ -8,15 +8,12 @@ font-family: 'Vesper Libre', serif;
 }
 h1{
     background-color: antiquewhite;
-    border: 20px solid black;
+    border: 10px solid black;
     padding: 3%;
     margin: 3%;
     text-align: center;
     color: darkgreen;
     font-size: 50px;
-}
-h3{
-    font-size: 25px;
 }
 .parent{
     flex-direction: row, column;
@@ -25,9 +22,9 @@ h3{
     position: relative;
 
 }
-
-
 .card{
+    width: 30%;
+    height: 30%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -38,6 +35,13 @@ h3{
     padding: 20px;
     color: darkgreen;
     font-size: 15px;
-    border: 15px solid black;
+    border: 5px solid black;
     border-image: 5px solid black;
+}
+.card-title{
+    font-size: 25px;
+}
+.card-img{
+    width: 20%;
+    height: 20%;
 }
