@@ -16,7 +16,7 @@ header{
     font-size: 50px;
 }
 .flex-container{
-    flex-direction: column;
+    flex-direction: row, column;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -26,8 +26,8 @@ header{
     margin-right: 5vw;
 }
 .card-body{
-    width: 40%;
-    height: 100%;
+    width: 30%;
+    height: 90%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
