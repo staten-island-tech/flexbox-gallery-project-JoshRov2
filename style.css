@@ -50,13 +50,12 @@ header{
     font-size: 15px;
     color: darkgreen;
     align-items: center;
-    flex-grow: 1;
     text-align: center;
+    width: auto;
 }
 .card-img{
     width: 18vw;
     height: 21vh;
     border: 3px solid black;
     align-items: center;
-    max-width: 100%;
 }
