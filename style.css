@@ -21,6 +21,7 @@ header{
     justify-content: space-around;
     position: relative;
     align-items: center;
+    height: 100%;
     box-sizing: border-box;
     margin-left: 5vw;
     margin-right: 5vw;
