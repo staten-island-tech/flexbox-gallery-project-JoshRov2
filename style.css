@@ -18,9 +18,10 @@ header{
 .flex-container{
     flex-direction: row, column;
     display: flex;
+    height: 100%;
     justify-content: space-around;
     position: relative;
-    align-items: center;
+    align-items: flex-start;
     height: 100%;
     box-sizing: border-box;
     margin-left: 5vw;
@@ -30,11 +31,14 @@ header{
     display: flex;
     width: 33.33%;
     height: 100%;
+    flex: 1;
     flex-grow: 1;
+    flex-shrink: 0;
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: auto;
     align-items: center;
+    align-self: stretch;
     justify-content: space-between;
     background-color: antiquewhite;
     box-shadow: 15px 10px 10px black;
