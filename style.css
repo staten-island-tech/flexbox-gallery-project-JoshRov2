@@ -16,7 +16,7 @@ header{
     font-size: 50px;
 }
 .flex-container{
-    flex-direction: row, column;
+    flex-direction: row;
     display: flex;
     height: 100%;
     justify-content: space-around;
