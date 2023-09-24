@@ -28,11 +28,12 @@ header{
 }
 .card-body{
     display: flex;
-    width: 30%;
+    width: 33.33%;
     height: 100%;
     flex-grow: 1;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top: auto;
     align-items: center;
     justify-content: space-between;
     background-color: antiquewhite;
