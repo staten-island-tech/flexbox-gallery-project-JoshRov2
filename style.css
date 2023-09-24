@@ -19,6 +19,7 @@ header{
     flex-direction: row;
     display: flex;
     height: 100%;
+    align-self: stretch;
     justify-content: space-around;
     position: relative;
     align-items: flex-start;
@@ -37,7 +38,7 @@ header{
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: auto;
-    align-items: center;
+    align-items: stretch;
     align-self: stretch;
     justify-content: space-between;
     background-color: antiquewhite;
