@@ -29,7 +29,7 @@ header{
 .card-body{
     display: flex;
     width: 33.33%;
-    height: 100%;
+    height: 80vh;
     flex: 1;
     flex-grow: 1;
     flex-shrink: 0;
@@ -52,14 +52,14 @@ header{
     align-items: stretch;
 }
 .card-text{
-    font-size: 15px;
+    font-size: 18px;
     color: darkgreen;
     align-items: stretch;
     flex: 1 1 30%;
     text-align: center;
 }
 .card-img{
-    width: 18vw;
+    width: 100%;
     height: 21vh;
     border: 3px solid black;
     align-items: stretch;
