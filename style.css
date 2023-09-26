@@ -18,14 +18,15 @@ header{
 .flex-container{
     flex-direction: row;
     display: flex;
-    height: 100%;
+    height: 100vh;
     flex: 1;
     justify-content: space-around;
     position: relative;
     align-items: flex-start;
     box-sizing: border-box;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 10vh;
 }
 .card-body{
     display: flex;
@@ -34,27 +35,28 @@ header{
     flex: 1;
     flex-grow: 1;
     flex-shrink: 0;
+    word-break: keep-all;
     flex-direction: column;
     margin-top: auto;
     align-items: center;
     align-self: stretch;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: antiquewhite;
     box-shadow: 15px 10px 10px black;
-    margin: 20px;
-    padding: 10px;
+    margin: 18px;
+    padding: 6px;
     border: 5px solid black;
 }
 .card-title{
     font-size: 25px;
     color: darkgreen;
     text-align: center;
-    align-items: stretch;
+    align-items: center;
 }
 .card-text{
     font-size: 15px;
     color: darkgreen;
-    align-items: stretch;
+    align-items: center;
     flex-wrap: wrap;
     flex: 1 1 30%;
     text-align: center;
@@ -63,5 +65,5 @@ header{
     width: 18vw;
     height: 21vh;
     border: 3px solid black;
-    align-items: stretch;
+    align-items: center;
 }
