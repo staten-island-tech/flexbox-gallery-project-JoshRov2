@@ -31,7 +31,7 @@ header{
 .card-body{
     display: flex;
     width: 33.33%;
-    height: 80vh;
+    height: 100%;
     flex: 1;
     flex-grow: 1;
     flex-shrink: 0;
@@ -56,7 +56,7 @@ header{
     align-items: stretch;
 }
 .card-text{
-    font-size: 18px;
+    font-size: 15px;
     color: darkgreen;
     align-items: stretch;
     flex-wrap: wrap;
