@@ -9,8 +9,8 @@ font-family: 'Vesper Libre', serif;
 header{
     background-color: antiquewhite;
     border: 10px solid black;
-    padding: 3%;
-    margin: 3%;
+    padding: 4%;
+    margin: 4%;
     text-align: center;
     color: darkgreen;
     font-size: 50px;
@@ -18,28 +18,23 @@ header{
 .flex-container{
     flex-direction: row;
     display: flex;
-    height: 100vh;
+    width: auto;
+    height: auto;
     flex: 1;
     justify-content: space-around;
     flex-wrap: wrap;
-    position: relative;
-    align-items: flex-start;
     box-sizing: border-box;
-    margin-left: 7vw;
-    margin-right: 7vw;
-    margin-bottom: 10vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 8vh;
 }
 .card-body{
     display: flex;
     height: 100%;
-    flex: 1;
-    flex-grow: 1;
-    flex-shrink: 1;
-    word-break: keep-all;
+    width: 20%;
     flex-direction: column;
     margin-top: auto;
     align-items: center;
-    align-self: stretch;
     justify-content: space-around;
     background-color: antiquewhite;
     box-shadow: 15px 10px 10px black;
@@ -48,22 +43,25 @@ header{
     border: 5px solid black;
 }
 .card-title{
-    font-size: 25px;
+    font-size: 24px;
     color: darkgreen;
     text-align: center;
+    justify-content: center;
     align-items: center;
 }
 .card-text{
-    font-size: 15px;
+    font-size: 14px;
     color: darkgreen;
+    justify-content: center;
+    padding: 3%;
     align-items: center;
     flex-wrap: wrap;
-    flex: 1 1 30%;
     text-align: center;
 }
 .card-img{
     width: 18vw;
     height: 21vh;
     border: 3px solid black;
+    justify-content: center;
     align-items: center;
 }
