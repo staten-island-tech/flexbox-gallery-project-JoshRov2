@@ -65,3 +65,68 @@ header{
     justify-content: center;
     align-items: center;
 }
+.card-body:hover .card-body:not(:hover) {
+transform: scale(0.9);
+transition: 1s;
+opacity: 0.5;
+}
+#naples:hover{
+    transform: scale(1.1);
+    outline: 0.7rem solid black;
+    transition: 1s;
+}
+#rome:hover{
+    transform: scale(1.1);
+    outline: 1rem solid black;
+    transition: 2s;
+}
+#bologna:hover{
+    transform: scale(1.1);
+    outline: 1rem solid black;
+    transition: 2s;
+}
+#florence:hover{
+    transform: scale(1.1);
+    outline: 0.7rem solid black;
+    transition: 1s;
+}
+#turin:hover{
+    transform: scale(1.1);
+    outline: 0.7rem solid black;
+    transition: 1s;
+}
+#palermo:hover{
+    transform: scale(1.1);
+    outline: 1rem solid black;
+    transition: 2s;
+}
+#pisa:hover{
+    transform: scale(1.1);
+    outline: 1rem solid black;
+    transition: 1s;
+}
+#positano:hover{
+    transform: scale(1.1);
+    outline: 0.7rem solid black;
+    transition: 1s;
+}
+#siena:hover{
+    transform: scale(1.1);
+    outline: 0.7rem solid black;
+    transition: 1s;
+}
+#venice:hover{
+    transform: scale(1.1);
+    outline: 1rem solid black;
+    transition: 2s;
+}
+#milan:hover{
+    transform: scale(1.1);
+    outline: 1rem solid black;
+    transition: 2s;
+}
+#verona:hover{
+    transform: scale(1.1);
+    outline: 0.7rem solid black;
+    transition: 1s;
+}
