@@ -18,7 +18,7 @@ header{
 .flex-container{
     flex-direction: row;
     display: flex;
-    height: 100vh;
+    height: auto;
     flex: 1;
     justify-content: space-around;
     position: relative;
