@@ -8,12 +8,23 @@ font-family: 'Vesper Libre', serif;
 }
 header{
     background-color: antiquewhite;
-    border: 10px solid black;
-    padding: 4%;
-    margin: 4%;
+    border: 8px solid black;
+    padding: 3%;
+    margin: 3%;
+    height: 100px;
+    width: 1000px;
+    align-content: center;
     text-align: center;
+    justify-content: center;
     color: darkgreen;
-    font-size: 50px;
+    font-size: 35px;
+    transition: 1s;
+    animation: backforth 5s infinite ;
+}
+@keyframes backforth{
+    0% {
+        transform: translateX();
+    }
 }
 .flex-container{
     flex-direction: row;
@@ -72,67 +83,81 @@ header{
     }
 }
 .flex-container:hover .card-body:not(:hover) {
-transform: scale(0.7);
 transition: 1s;
 opacity: 0.5;
+transform: scale(0.8);
 }
 #naples:hover{
-    transform: scale(1.1);
-    outline: 0.7rem solid black;
+    transform: scale(1.2);
+    outline: 1.1rem solid black;
     transition: 1s;
 }
 #rome:hover{
-    transform: scale(0.8);
-    outline: 0.3rem solid black;
+    transform: scale(0.7);
+    outline: -0.5rem solid black;
     transition: 1s ;
     border: 0px;
+    box-shadow: 0px;
 }
 #bologna:hover{
-    color: teal;
-    transition: color 1s ease-in-out;
+    transform: scale(1.1);
+    background-color: lightblue;
+    transition: 2s ease-in-out;
 }
 #florence:hover{
     transform: scale(1.1);
     outline: 0.7rem solid black;
-    transition: 1s;
+    transition: 0.5s;
+    color: black;
+    text-shadow: 3px 3px 5px green;
 }
 #turin:hover{
     transform: scale(1.1);
     outline: 0.7rem solid black;
-    transition: 1s;
+    transition: 2s ease-in;
+    rotate: 360deg;
+    font-family: 'Dancing Script'
 }
 #palermo:hover{
-    transform: scale(1.1);
-    outline: 1rem solid black;
-    transition: 2s;
+    transform: scale(1.2);
+    outline: 1.1rem solid black;
+    transition: 1s;
 }
 #pisa:hover{
-    transform: scale(1.1);
-    outline: 1rem solid black;
-    transition: 1s;
+    transform: scale(0.7);
+    outline: -0.5rem solid black;
+    transition: 1s ;
+    border: 0px;
+    box-shadow: 0px;
 }
 #positano:hover{
     transform: scale(1.1);
-    outline: 0.7rem solid black;
-    transition: 1s;
+    background-color: lightblue;
+    transition: 2s ease-in-out;
 }
 #siena:hover{
     transform: scale(1.1);
     outline: 0.7rem solid black;
-    transition: 1s;
+    transition: 0.5s;
+    color: black;
+    text-shadow: 3px 3px 5px green;
 }
 #venice:hover{
     transform: scale(1.1);
-    outline: 1rem solid black;
-    transition: 2s;
+    outline: 0.7rem solid black;
+    transition: 2s ease-in;
+    rotate: 360deg;
+    font-family: 'Dancing Script'
 }
 #milan:hover{
-    transform: scale(1.1);
-    outline: 1rem solid black;
-    transition: 2s;
+    transform: scale(1.2);
+    outline: 1.1rem solid black;
+    transition: 1s;
 }
 #verona:hover{
-    transform: scale(1.1);
-    outline: 0.7rem solid black;
-    transition: 1s;
+    transform: scale(0.7);
+    outline: -0.5rem solid black;
+    transition: 1s ;
+    border: 0px;
+    box-shadow: 0px;
 }
