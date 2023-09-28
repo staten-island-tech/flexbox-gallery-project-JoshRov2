@@ -11,21 +11,39 @@ header{
     border: 8px solid black;
     padding: 3%;
     margin: 3%;
-    height: 100px;
-    width: 1000px;
+    height: auto;
+    position: relative;
+    width: 150px;
     align-content: center;
     text-align: center;
     justify-content: center;
     color: darkgreen;
-    font-size: 35px;
-    transition: 1s;
-    animation: backforth 5s infinite ;
+    font-size: 25px;
+    transition: 2s;
+    animation-name: backforth;
+    animation-delay: 2s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 @keyframes backforth{
     0% {
-        transform: translateX();
+      transform: translatex(0vw);  
+      }
+    25%{
+      transform: translatex(25vw);
     }
-}
+    50%{
+      transform: translatex(50vw);
+      }
+    75%{
+    transform: translatex(75vw);
+      }
+    100% {
+    transform: translatex(0vw); 
+    transition: 2s;   
+      }
+    }
 .flex-container{
     flex-direction: row;
     display: flex;
@@ -108,8 +126,7 @@ transform: scale(0.8);
     transform: scale(1.1);
     outline: 0.7rem solid black;
     transition: 0.5s;
-    color: black;
-    text-shadow: 3px 3px 5px green;
+    text-shadow: 4px 4px 6px green;
 }
 #turin:hover{
     transform: scale(1.1);
