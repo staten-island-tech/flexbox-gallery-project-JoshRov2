@@ -28,6 +28,7 @@ header{
     margin-right: 4vw;
     margin-bottom: 8vh;
 }
+
 .card-body{
     display: flex;
     height: 100%;
@@ -65,8 +66,13 @@ header{
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 800px) {
+    .card-body{
+        width: 100%
+    }
+}
 .flex-container:hover .card-body:not(:hover) {
-transform: scale(0.9);
+transform: scale(0.7);
 transition: 1s;
 opacity: 0.5;
 }
@@ -76,14 +82,14 @@ opacity: 0.5;
     transition: 1s;
 }
 #rome:hover{
-    transform: scale(1.1);
-    outline: 1rem solid black;
-    transition: 2s;
+    transform: scale(0.8);
+    outline: 0.3rem solid black;
+    transition: 1s ;
+    border: 0px;
 }
 #bologna:hover{
-    transform: scale(1.1);
-    outline: 1rem solid black;
-    transition: 2s;
+    color: teal;
+    transition: color 1s ease-in-out;
 }
 #florence:hover{
     transform: scale(1.1);
