@@ -65,7 +65,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.card-body:hover .card-body:not(:hover) {
+.flex-container:hover .card-body:not(:hover) {
 transform: scale(0.9);
 transition: 1s;
 opacity: 0.5;
