@@ -95,11 +95,8 @@ header{
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 800px) {
-    .card-body{
-        width: 100%
-    }
-}
+
+
 .flex-container:hover .card-body:not(:hover) {
 transition: 1s;
 opacity: 0.5;
@@ -177,4 +174,14 @@ transform: scale(0.8);
     transition: 1s ;
     border: 0px;
     box-shadow: 0px;
+}
+@media screen and (max-width: 1024px) {
+    .card-body{
+        width: 80%
+    }
+}
+@media screen and (min-width: 834px) {
+    .card-body{
+        width: 40%;
+    }
 }
